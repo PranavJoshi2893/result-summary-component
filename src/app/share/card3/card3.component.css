@@ -1,0 +1,19 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 10px 0px;
+}
+.category{
+    display: flex;
+}
+.mark{
+    color: var(--dark-gray-blue);
+    margin-right: 8px;
+}
+.totalMarks>p{
+    color: var(--dark-gray-blue-light);
+}
+.category>p{
+    margin-left: 10px;
+}

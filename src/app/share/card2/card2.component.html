@@ -1,0 +1,9 @@
+<div class="wrapper">
+    <h3>Summary</h3>
+    <div class="card-container">
+        <div class="card" *ngFor="let mark of marksData">
+            <app-card3 [mark]="mark"></app-card3>
+        </div>
+    </div>
+    <button class="btn">Continue</button>
+</div>

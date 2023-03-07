@@ -1,0 +1,18 @@
+.wrapper{
+    display: grid;
+    box-shadow: 10px 10px 30px rgba(128, 128, 128, 0.3);
+    border-radius: 24px;
+    grid-template-columns: repeat(1,375px);
+}
+@media screen and (min-width:650px) {
+    .wrapper{
+        grid-template-columns: repeat(2,325px);
+        grid-template-rows: repeat(1,450px);
+    }
+}
+@media screen and (max-width:650px) {
+    .wrapper{
+        height: 100vh;
+        border-radius: 0px;
+    }
+}
